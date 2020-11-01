@@ -116,7 +116,8 @@ nav a:hover::after {
 .numbers .rect {
     position: relative;
     z-index: 1;
-    box-shadow: 0 0 15px 1px rgba(166, 163, 223, 0.5);
+    background: white;
+    /*box-shadow: 0 0 15px 1px rgba(166, 163, 223, 0.5);*/
     border-radius: 100px;
     width: 20rem;
     height: 12rem;
@@ -135,6 +136,8 @@ nav a:hover::after {
 .numbers .rect p {
     font-size: 1.2em;    
 }
+
+
 
 
 .section-1 {
@@ -261,7 +264,6 @@ box-shadow: 0 9px 9px 1px rgba(204, 204, 204, 0.5);
 /*---review---*/
 .review {
 margin: 100px 0;
-color: black;
 }
 
 .carousel-item img {
@@ -276,7 +278,8 @@ height: 430px;
 
 .carousel-caption {
 z-index: -1 !important;
-box-shadow: 0 0 15px 1px rgba(166, 163, 223, 0.5);
+background: white;
+/*box-shadow: 0 0 15px 1px rgba(166, 163, 223, 0.5);*/
 border-radius: 5px;
 margin-bottom: 50px;
 }
