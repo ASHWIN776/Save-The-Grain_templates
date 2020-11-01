@@ -113,6 +113,71 @@ nav a:hover::after {
 }
 
 
+.numbers .rect {
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 0 15px 1px rgba(166, 163, 223, 0.5);
+    border-radius: 100px;
+    width: 20rem;
+    height: 12rem;
+    padding-top: 4vmin;
+    margin: 1rem;
+}
+  
+.numbers {
+    margin-top: -5vmin;
+}
+  
+.numbers .rect h1 {
+    font-size: 3em;    
+}
+
+.numbers .rect p {
+    font-size: 1.2em;    
+}
+
+
+.section-1 {
+    padding: 10vmin 0vmin;
+  }
+  
+  .section-1 .row .col-md-6 .pray img {
+    opacity: 0.8;
+    width: 80%;
+    border-radius: 0.2em;
+  }
+  
+  .section-1 .row .col-md-6:last-child {
+    position: relative;
+  }
+  
+  .section-1 .row .col-md-6 .panel {
+    position: absolute;
+    top: 7vmin;
+    left: -18vmin;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 13vmin 5vmin 20vmin 10vmin;
+    box-shadow: 0 0 15px 1px rgba(166, 163, 223, 0.5);
+    font-family: var(--Rubik);
+    z-index: 1;
+  }
+  
+  .section-1 .row .col-md-6 .panel h1 {
+    font-weight: bold;
+    padding: 0.4em 0;
+    font-size: 2em;
+    color: black;
+  }
+  
+  .section-1 .row .col-md-6 .panel p {
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+
+
 .title {
 text-align: center;
 font-weight: bold;
@@ -121,7 +186,7 @@ margin-bottom: 30px;
 .subtitle {
 text-align: center;
 margin-bottom: 70px;
-font-size: 15px;
+font-size: 18px;
 }
 
 .size {
@@ -155,12 +220,12 @@ cursor: pointer;
 }
 
 
-.info, .explore {
+.info {
 margin: 200px 0;
 color: black;
 }
 
-.info img ,.explore img{
+.info img {
 max-width: 77%;
 cursor: pointer;
 }
@@ -171,7 +236,7 @@ font-weight: bold;
 line-height: 50px;
 }
 
-.info p ,.explore p{
+.info p {
 margin-top: 25px;
 margin-bottom: 50px;
 color: #808080;
@@ -179,7 +244,7 @@ font-size: 14px;
 line-height: 18px;
 }
 
-.info a ,.explore a{
+.info a {
 width: 170px;
 padding: 15px 10px;
 display: block;
@@ -192,15 +257,7 @@ font-size: 14px;
 box-shadow: 0 9px 9px 1px rgba(204, 204, 204, 0.5);
 }
 
-.explore h2 {
-margin-top: 50px;
-font-weight: bold;
-line-height: 50px;
-}
 
-.explore a {
-margin-bottom: 30px;
-}
 /*---review---*/
 .review {
 margin: 100px 0;
